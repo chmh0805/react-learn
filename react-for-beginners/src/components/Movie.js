@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 function Movie({ title, year, mediumCoverImage, summary, genres }) {
 	return (
 		<div>
 			<h2>
-				{title} ({year})
+				<Link to="/movie">
+					{title} ({year})
+				</Link>
 			</h2>
 			<img src={mediumCoverImage} alt="medium_cover_image" />
 			<p>{summary}</p>
