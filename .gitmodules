@@ -1,3 +1,6 @@
 [submodule "react-unit-convertor"]
 	path = react-unit-convertor
 	url = https://github.com/chmh0805/react-unit-convertor.git
+[submodule "MH-React-Hooks"]
+	path = MH-React-Hooks
+	url = https://github.com/chmh0805/MH-React-Hooks
